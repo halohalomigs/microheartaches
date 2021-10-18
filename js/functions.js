@@ -15,7 +15,7 @@ function reveal() {
 
 function nextPage() {    
     const array = document.getElementById("page").src.split("/");    
-    var input = parseInt(array[9]);
+    var input = parseInt(array[5]);
     var pageNumber = input;
     pageNumber++;
     
@@ -33,7 +33,7 @@ function nextPage() {
 function backPage() {
     const array = document.getElementById("page").src;//.split("/");   
 	console.log(array);
-    var input = parseInt(array[9]);
+    var input = parseInt(array[5]);
     var pageNumber = input;
     pageNumber--;
 
