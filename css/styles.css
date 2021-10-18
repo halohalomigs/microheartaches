@@ -285,8 +285,8 @@ li:hover {
     border-radius: 5px;
     padding: 42px;;
     width: 40%;
-    height: 100%
-    margin: auto;
+    height: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
