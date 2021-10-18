@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+		<title>Read Microheartaches by Carlos Salazar</title>
+		<link rel="icon" href="img/icon.png" type="image/png">
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<script src="js/functions.js" type="text/javascript"></script>
+	</head>
+	<body id="body" onload="reveal()">
+		<main id="main-reader">
+			<div class="container" id="navigation">
+                <div id="paginate">
+                    <a class="option" id="return" href="index.html">Back to Home</a>
+                    <label for="choice">Page</label>
+                    <select name="choice" id="paths" onchange='directPage()'>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                    </select>
+                    <span>of 32</span>
+                </div>
+                <div id="table">
+                    <span id="table-label">Book Preview</span>
+                    <ul>
+                        <li id="titles" value="9" onclick="redirectPage(this.value)">CLOVER</li>
+                        <li id="titles" value="10" onclick="redirectPage(this.value)">PROMISES <i>of</i> NAZARETH</li>
+                        <li id="titles" value="12" onclick="redirectPage(this.value)">CONVOCACION</li>
+                        <li id="titles" value="14" onclick="redirectPage(this.value)">DAMN(ED N)ATION</li>
+                        <li id="titles" value="16" onclick="redirectPage(this.value)">SOMNILOQUY</li>
+                        <li id="titles" value="18" onclick="redirectPage(this.value)">ETHERON, <i>butterfly psalms</i></li>
+                        <li id="titles" value="26" onclick="redirectPage(this.value)">MAKILING</li>
+                        <li id="titles" value="28" onclick="redirectPage(this.value)">UNKNOWN</li>
+                        <li id="titles" value="29" onclick="redirectPage(this.value)">SPRINGTIME <i>of</i> YOU</li>
+                        <li id="titles" value="30" onclick="redirectPage(this.value)">MICROHEARTACHES</li>                                                
+                    </ul>
+                </div> 
+            </div>
+            <div class="container" id="display">
+                <a class="knob" id="back" onclick="backPage()">←</a>
+				<img id="page" src="img/1.png" onContextMenu="return false;" />
+                <a class="knob" id="next" onclick="nextPage()">→</a>
+			</div>
+		</main>
+	</body>
+</html>
