@@ -23,8 +23,52 @@ body {
 	transition: all 0.8s ease;
 }
 
+@font-face {
+    font-family: 'spectralbold';
+    src: url('spectral-bold-webfont.woff2') format('woff2'),
+         url('spectral-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'spectralbold_italic';
+    src: url('spectral-bolditalic-webfont.woff2') format('woff2'),
+         url('spectral-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'spectralitalic';
+    src: url('spectral-italic-webfont.woff2') format('woff2'),
+         url('spectral-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'spectralregular';
+    src: url('spectral-regular-webfont.woff2') format('woff2'),
+         url('spectral-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'leapregular';
+    src: url('leap-webfont.woff2') format('woff2'),
+         url('leap-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*---Index Styles---*/
-/*DONT FORGET ABOUT FONT SQUIRREL!*/
 
 #main-index {
     display: block;
