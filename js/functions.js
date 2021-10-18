@@ -13,7 +13,7 @@ function reveal() {
 	path.style.visibility = 'visible';
 }
 
-function nextPage() {    
+/*function nextPage() {    
     const array = document.getElementById("page").src.split("/");    
     var input = parseInt(array[9]);
     var pageNumber = input;
@@ -28,24 +28,24 @@ function nextPage() {
 
     assignSelected(pageNumber);
     document.getElementById("page").src = "img/" + pageNumber + ".png";
-}
+}*/
 
 function backPage() {
-    const array = document.getElementById("page").src.split("/");   
+    const array = document.getElementById("page").src;//.split("/");   
 	console.log(array);
-    //var input = parseInt(array[9]);
-    //var pageNumber = input;
-    //pageNumber--;
+    /*var input = parseInt(array[9]);
+    var pageNumber = input;
+    pageNumber--;
 
-    //if (pageNumber == 1) {
-    //    hideArrow("back");
-    //}
-    //else if (pageNumber < 32) {
-     //   showArrow("next");   
-    //}
+    if (pageNumber == 1) {
+        hideArrow("back");
+    }
+    else if (pageNumber < 32) {
+       showArrow("next");   
+    }
 
-    //assignSelected(pageNumber);
-    //document.getElementById("page").src = "img/" + pageNumber + ".png";
+    assignSelected(pageNumber);
+    document.getElementById("page").src = "img/" + pageNumber + ".png";*/
 
 }
 
