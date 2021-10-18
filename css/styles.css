@@ -365,6 +365,7 @@ iframe {
     }
     #subtitle {
          color: #c45b54;
+	    padding: 3px;
     }
     #promo {
         font-size: 14px;
