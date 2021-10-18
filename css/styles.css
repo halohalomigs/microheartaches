@@ -328,7 +328,7 @@ li:hover {
 
 #title-small, #author-small {
     font-size: 18px;
-    font-style: italic;
+    font-family: 'spectralbold_italic';
     font-weight: bold;
 }
 
@@ -373,6 +373,7 @@ iframe {
     .option {
         background-color: white;
         color: #942119;
+	padding: 3px;
     }
     /*---*/
     #main-reader {
