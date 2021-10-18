@@ -13,7 +13,7 @@ function reveal() {
 	path.style.visibility = 'visible';
 }
 
-/*function nextPage() {    
+function nextPage() {    
     const array = document.getElementById("page").src.split("/");    
     var input = parseInt(array[9]);
     var pageNumber = input;
@@ -28,12 +28,12 @@ function reveal() {
 
     assignSelected(pageNumber);
     document.getElementById("page").src = "img/" + pageNumber + ".png";
-}*/
+}
 
 function backPage() {
     const array = document.getElementById("page").src;//.split("/");   
 	console.log(array);
-    /*var input = parseInt(array[9]);
+    var input = parseInt(array[9]);
     var pageNumber = input;
     pageNumber--;
 
@@ -45,7 +45,7 @@ function backPage() {
     }
 
     assignSelected(pageNumber);
-    document.getElementById("page").src = "img/" + pageNumber + ".png";*/
+    document.getElementById("page").src = "img/" + pageNumber + ".png";
 
 }
 
