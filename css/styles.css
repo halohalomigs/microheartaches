@@ -16,7 +16,7 @@ body {
     margin: auto;
     background-color: #1d1f21;
 	color: white;
-	font-family: 'spectral';
+	font-family: 'spectralregular';
 	font-size: 18px;
 	visibility: hidden;
 	opacity: 0;
@@ -81,6 +81,10 @@ body {
     background-size: cover;
 }
 
+i {
+    font-family: 'spectralitalic';
+}
+
 #logo > a {
     text-decoration: none;
 }
@@ -106,7 +110,7 @@ body {
 }
 
 #title {
-    font-family: leap;
+    font-family: leapregular;
     font-size: 68px;
     line-height: 1;
     transition: 0.8s;
@@ -157,7 +161,7 @@ body {
     text-align: center;
     background-color: transparent;
     color: white;
-    font-style: italic;
+    font-family: 'spectralitalic';
     text-decoration: none;
     transition: 0.8s;
 }
@@ -211,7 +215,7 @@ select {
 
 #table-label {
     font-size: 16px;
-    font-style: italic;
+    font-family: 'spectralitalic';
     padding: 0 5px;
 }
 
@@ -388,8 +392,9 @@ iframe {
         display: none;
     }
     .knob {
-        color: #eb8943;
+        color:#5e656b;
         position: fixed;
+        font-size: 48px;
         margin: auto 2.5%;
         opacity: 0.3;
     }
