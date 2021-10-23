@@ -19,7 +19,7 @@ function nextPage() {
     var pageNumber = input;
     pageNumber++;
     
-    if (pageNumber == 59) {
+    if (pageNumber == 32) {
         hideArrow("next");
     }
     else if (pageNumber > 1) {
@@ -31,7 +31,7 @@ function nextPage() {
 }
 
 function backPage() {
-    const array = document.getElementById("page").src;//.split("/");   
+    const array = document.getElementById("page").src.split("/");   
 	console.log(array);
     var input = parseInt(array[5]);
     var pageNumber = input;
